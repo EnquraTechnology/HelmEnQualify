@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  labels:
+    io.service: enqualify-ui
+  name: enqualify-ui
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    io.service: enqualify-ui
+  ingressClassName: {{ .Values.ingressClassName }}
+  rules:
+  - host: {{ .Values.rules.host }}
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: enqualify-ui
+            port:
+              number: 8080

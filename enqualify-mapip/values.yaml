@@ -1,0 +1,50 @@
+
+namespace: enqualifyapp
+
+# Image
+image:
+  repository: ""
+  tag: ""
+  pullPolicy: IfNotPresent
+
+# Replica
+replicaCount: 1
+
+# Service
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+# Ingress
+ingressClassName: nginx
+rules:
+  host: enqualifymapip.example.com
+
+# Deployment
+strategy:
+  type: Recreate
+
+# Container
+containerPorts:
+  http: 8080
+
+# Volume
+volumes:
+  appsettingsjs:
+    configMap: enqualify-mapip
+  videopvc:
+    persistentVolumeClaim:
+      claimName: enqualify-mapip-claim
+
+# Uygulama
+application:
+  settings:
+    ServiceBase: "" #enqualify-mapi'nin url https://......../ şeklinde eklenmelidir.
+  tokens:
+    auth:
+      jwt:
+        key: ""
+    request:
+      sign:
+        key: ""

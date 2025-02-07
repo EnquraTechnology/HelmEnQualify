@@ -1,0 +1,39 @@
+
+namespace: enqualifyapp
+
+# Image
+image:
+  repository: ""
+  tag: ""
+  pullPolicy: IfNotPresent
+
+# Replica
+replicaCount: 1
+
+# Service
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+# Deployment
+strategy:
+  type: Recreate
+
+# Container
+containerPorts:
+  http: 8080
+
+# Volume
+volumes:
+  appsettingsjs:
+    configMap: enqualify-ui
+  videopvc:
+    persistentVolumeClaim:
+      claimName: enqualify-ui-claim
+
+# Uygulama
+application:
+  settings:
+    ServiceBase: ""
+    UIServiceBase: ""

@@ -1,0 +1,66 @@
+
+namespace: enqualifyapp
+
+# Image
+image:
+  repository: ""
+  tag: ""
+  pullPolicy: IfNotPresent
+
+# Replica
+replicaCount: 1
+
+# Service
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+# Ingress
+ingressClassName: nginx
+rules:
+  host: enqualifymapi.example.com
+
+
+# Image
+#imagePullSecrets:
+ # - name: dockerhubsecret
+
+# Deployment
+strategy:
+  type: Recreate
+
+# Container
+containerPorts:
+  http: 8080
+
+# Volume
+volumes:
+  appsettingsjs:
+    configMap: enqualify-mapi
+  videopvc:
+    persistentVolumeClaim:
+      claimName: enqualify-mapi-claim
+
+pvc:
+  storageClassName: nfs-sc
+  #volumeName: enqualify-pv
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 100Gi
+
+# Uygulama
+application:
+  settings:
+    customerAppServiceBase: ""
+  database:
+    connections:
+      default: "Server=;Database=;User ID=;Password=;Connection Timeout=30;Encrypt=False;TrustServerCertificate=false"
+  tokens:
+    auth:
+      jwt:
+        key: ""
+    request:
+      sign:
+        key: ""
