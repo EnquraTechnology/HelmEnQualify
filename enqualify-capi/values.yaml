@@ -33,10 +33,6 @@ containerPorts:
 volumes:
   appsettingsjs:
     configMap: enqualify-capi
-  videopvc:
-    persistentVolumeClaim:
-      claimName: enqualify-capi-claim
-
 # Uygulama
 application:
   database:
