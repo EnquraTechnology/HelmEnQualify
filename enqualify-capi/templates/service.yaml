@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    io.service: enqualify-api
-  name: enqualify-api
+    io.service: enqualify-capi
+  name: enqualify-capi
   namespace: {{ .Values.namespace }}
 spec:
   ports:
     port: {{ .Values.service.port }}
     targetPort: {{ .Values.service.targetPort }}
   selector:
-    io.service: enqualify-api
+    io.service: enqualify-capi
