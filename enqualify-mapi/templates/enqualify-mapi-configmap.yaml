@@ -26,7 +26,7 @@ data:
         "Database": {
           "Type_": "PostgreSql",
           "Connections": {
-            "Default": "{ .Values.application.database.connections.default }}"
+            "Default": "{{ .Values.application.database.connections.default }}"
           }
         },
         "Features": {
