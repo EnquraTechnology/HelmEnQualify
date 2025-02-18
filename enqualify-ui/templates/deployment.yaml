@@ -34,10 +34,8 @@ spec:
         env:
         - name: ServiceBase
           value: "{{ .Values.application.settings.ServiceBase }}"
-        - name: jwtkey
-          value: "{{ .Values.application.tokens.auth.jwt.key }}"
-        - name: signkey
-          value: "{{ .Values.application.tokens.request.sign.key }}"            
+        - name: UIServiceBase
+          value: "{{ .Values.application.settings.UIServiceBase }}"          
         livenessProbe:
           failureThreshold: 5
           httpGet:
