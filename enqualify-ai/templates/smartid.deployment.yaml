@@ -39,4 +39,4 @@ spec:
       volumes:
         - name: log-folder
           persistentVolumeClaim:
-            claimName: {{ .Values.volumes.smartid-log.persistentVolumeClaim.claimName }}
+            claimName: {{ .Values.volumes.persistentVolumeClaim.claimName }}
