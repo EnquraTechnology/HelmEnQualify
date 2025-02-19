@@ -9,7 +9,9 @@ image:
 
 # Replica
 replicaCount: 1
-
+ingressClassName: nginx
+rules:
+  host: enqualifyui.example.com
 # Service
 service:
   type: ClusterIP
