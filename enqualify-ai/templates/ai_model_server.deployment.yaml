@@ -16,12 +16,12 @@ spec:
         ai.service: aimodelserver
     spec:
       containers:
-        - name: ai_model_server
+        - name: aimodelserver
           image: "{{ .Values.ai_model_server.repository.image }}:{{ .Values.ai_model_server.repository.tag }}"
           imagePullPolicy: {{ .Values.ai_model_server.repository.pullPolicy }}
           ports:
-            - name: aimodelserver
+            - name: aimodelserver8500
               containerPort: 8500
-            - name: aimodelserver-8501
+            - name: aimodelserver8501
               containerPort: 8501
 

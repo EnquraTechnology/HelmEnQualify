@@ -3,7 +3,7 @@ entries:
   EnQualifyAI:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.24145127+03:00"
+    created: "2025-02-20T17:33:32.225539409+03:00"
     description: A Helm chart for Kubernetes
     digest: 206bfa4c4f09c870dab930e5341e54f93a25551bb74864c82dad091ab75dc145
     name: EnQualifyAI
@@ -14,7 +14,17 @@ entries:
   enqualifyai:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.243455069+03:00"
+    created: "2025-02-20T17:33:32.227696605+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d6ba4a8674513c2dfc015d086bd1649e57640f25af89cc4d029869366a9f3b35
+    name: enqualifyai
+    type: application
+    urls:
+    - enqualifyai-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.4.1
+    created: "2025-02-20T17:33:32.227438905+03:00"
     description: A Helm chart for Kubernetes
     digest: e888f9c568da361bd9cd56714b5619fa0f044d74e31261682404c9ee3ecb3577
     name: enqualifyai
@@ -24,7 +34,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.243198469+03:00"
+    created: "2025-02-20T17:33:32.227195506+03:00"
     description: A Helm chart for Kubernetes
     digest: b6fe8684df80c80f0bfd3b901c8b2075dc42893c459660b3e4188d20aaa54e8c
     name: enqualifyai
@@ -34,7 +44,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.242947269+03:00"
+    created: "2025-02-20T17:33:32.226949806+03:00"
     description: A Helm chart for Kubernetes
     digest: 28164ecf68ebec099017bf77bed9eb40759dab8b0b89589e7c1ab1ee9d39545a
     name: enqualifyai
@@ -44,7 +54,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.242680869+03:00"
+    created: "2025-02-20T17:33:32.226693007+03:00"
     description: A Helm chart for Kubernetes
     digest: 55fc3dbc6a7ce2ba43853cf444055d98ac021acb7c8167ac7e6a10ccd2281c87
     name: enqualifyai
@@ -54,7 +64,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.242375669+03:00"
+    created: "2025-02-20T17:33:32.226432707+03:00"
     description: A Helm chart for Kubernetes
     digest: c7dbf5ed2b51b86213fee0671c1f62326fda169ea9b9ccbd9637243693fce731
     name: enqualifyai
@@ -64,7 +74,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.242076069+03:00"
+    created: "2025-02-20T17:33:32.226148108+03:00"
     description: A Helm chart for Kubernetes
     digest: 1c64f89782a0ed75162a91f2634f6bfc167c7160cebe33fc45ddadfc8afb4484
     name: enqualifyai
@@ -74,7 +84,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-02-20T16:18:58.241796769+03:00"
+    created: "2025-02-20T17:33:32.225831108+03:00"
     description: A Helm chart for Kubernetes
     digest: c65b3640118b593f108330eb0a693dcbbaa64cf2cf77b0b5782264367a70c46c
     name: enqualifyai
@@ -85,7 +95,7 @@ entries:
   enqualifyapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.243850568+03:00"
+    created: "2025-02-20T17:33:32.228069604+03:00"
     description: A Helm chart for Kubernetes
     digest: e9924e057dbd091c0659774aa6e10a343e72411f83877b986151c0cfebca4ab4
     name: enqualifyapi
@@ -96,7 +106,7 @@ entries:
   enqualifycapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.245811867+03:00"
+    created: "2025-02-20T17:33:32.230287901+03:00"
     description: A Helm chart for Kubernetes
     digest: 4b7dec8b39cec0a05c64661aff836e545ac7a211b39c64973df80af2ba8f6435
     name: enqualifycapi
@@ -106,7 +116,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.245497668+03:00"
+    created: "2025-02-20T17:33:32.229635202+03:00"
     description: A Helm chart for Kubernetes
     digest: 4df76bb9bb615b58fc89d7f525e23387ba4b5f0d38b73c180b532a01212234e3
     name: enqualifycapi
@@ -116,7 +126,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.245196668+03:00"
+    created: "2025-02-20T17:33:32.229331802+03:00"
     description: A Helm chart for Kubernetes
     digest: c0daafbaef8cb0ce4d47452a8457589332939e8acfad50d596667b2ed613fbd1
     name: enqualifycapi
@@ -126,7 +136,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.244866168+03:00"
+    created: "2025-02-20T17:33:32.229029203+03:00"
     description: A Helm chart for Kubernetes
     digest: fc9c6e5b2a916f47ef24b8887a48beeb07e6a4115c5b323215507935be0675af
     name: enqualifycapi
@@ -136,7 +146,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.244496068+03:00"
+    created: "2025-02-20T17:33:32.228710403+03:00"
     description: A Helm chart for Kubernetes
     digest: a06ad058d94bbd67eef88afa7075b241f04a5567350c18a1edd3fb1a7e0f4129
     name: enqualifycapi
@@ -146,7 +156,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.244181468+03:00"
+    created: "2025-02-20T17:33:32.228393404+03:00"
     description: A Helm chart for Kubernetes
     digest: 4378a0cafbd2f27075f2f58fe8059904ec1752480bb817d6ca6c8242f974a503
     name: enqualifycapi
@@ -157,7 +167,7 @@ entries:
   enqualifymapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.248006766+03:00"
+    created: "2025-02-20T17:33:32.238006888+03:00"
     description: A Helm chart for Kubernetes
     digest: 3340f669e436a7a71d6e27249bfe32b5091b1141b3e9f651c8cf57a35df35ea4
     name: enqualifymapi
@@ -167,7 +177,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.247204567+03:00"
+    created: "2025-02-20T17:33:32.237674288+03:00"
     description: A Helm chart for Kubernetes
     digest: 32966ce92b9332f68dc1d4d86b5b15e16b233c88714cc92262db444a83bf354b
     name: enqualifymapi
@@ -177,7 +187,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.246877867+03:00"
+    created: "2025-02-20T17:33:32.237339189+03:00"
     description: A Helm chart for Kubernetes
     digest: c8cafc889bf91ee407dfcce7e46a0b4bd9fca8a65d8f28cb118af90988e217d3
     name: enqualifymapi
@@ -187,7 +197,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.246511067+03:00"
+    created: "2025-02-20T17:33:32.236986989+03:00"
     description: A Helm chart for Kubernetes
     digest: 70d3604ea26d6c5bbcd7f7497e0229f8bb50f8cf4b0fc16dd048243199cfc4d5
     name: enqualifymapi
@@ -197,7 +207,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.246158867+03:00"
+    created: "2025-02-20T17:33:32.23661669+03:00"
     description: A Helm chart for Kubernetes
     digest: dea0f1c7dc48a5dcf16b1e552ce3b1a646debec38c2d3698e7c49003c4ae0de3
     name: enqualifymapi
@@ -208,7 +218,7 @@ entries:
   enqualifymapip:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.249225566+03:00"
+    created: "2025-02-20T17:33:32.238881886+03:00"
     description: A Helm chart for Kubernetes
     digest: 5b00e2f68b1a3ace817924b1ef6b51830bc9ad54d5003765753315b8d6cc1794
     name: enqualifymapip
@@ -218,7 +228,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.248853566+03:00"
+    created: "2025-02-20T17:33:32.238599587+03:00"
     description: A Helm chart for Kubernetes
     digest: df800cf56f693ed0a21c4f0313239a38da3ab3c14dc0135b95e2d23438b00bd9
     name: enqualifymapip
@@ -228,7 +238,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.248466366+03:00"
+    created: "2025-02-20T17:33:32.238294087+03:00"
     description: A Helm chart for Kubernetes
     digest: 9947d82e8fb4e7e39860754b510d3db2de58d4b2acda24c53f421ca3e2e6cbda
     name: enqualifymapip
@@ -239,7 +249,7 @@ entries:
   enqualifyui:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.250707465+03:00"
+    created: "2025-02-20T17:33:32.239895485+03:00"
     description: A Helm chart for Kubernetes
     digest: e6c1197cdb1889946cc8bc08adeab10174fd537fe98632cd18968d2a7d92bfa7
     name: enqualifyui
@@ -249,7 +259,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.250432665+03:00"
+    created: "2025-02-20T17:33:32.239634685+03:00"
     description: A Helm chart for Kubernetes
     digest: 5d68ff0e99572a4558b1e25e07f197b5595c64e9c8151812048c892e4902b661
     name: enqualifyui
@@ -259,7 +269,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.250155865+03:00"
+    created: "2025-02-20T17:33:32.239384585+03:00"
     description: A Helm chart for Kubernetes
     digest: 3f7ffefc20508f4e4228cf64f87620e67d6b3cdc081fd1cab4529e0dba89db5d
     name: enqualifyui
@@ -269,7 +279,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-20T16:18:58.249871365+03:00"
+    created: "2025-02-20T17:33:32.239134586+03:00"
     description: A Helm chart for Kubernetes
     digest: 73f97535c263818745b1d2169e71baca4c27116177097057e95557ed9c96f6c7
     name: enqualifyui
@@ -277,4 +287,4 @@ entries:
     urls:
     - enqualifyui-0.1.4.tgz
     version: 0.1.4
-generated: "2025-02-20T16:18:58.24095757+03:00"
+generated: "2025-02-20T17:33:32.225051409+03:00"
