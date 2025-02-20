@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-      ai.service: smartid
+        ai.service: smartid
     spec:
       containers:
         - name: smartid
