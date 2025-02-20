@@ -18,7 +18,7 @@ spec:
       containers:
         - name: ai_model_server
           image: "{{ .Values.ai_model_server.repository.image }}:{{ .Values.ai_model_server.repository.tag }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          imagePullPolicy: {{ .Values.ai_model_server.repository.pullPolicy }}
           ports:
             - name: ai_model_server
               containerPort: 8500
