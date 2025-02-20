@@ -9,9 +9,11 @@ spec:
   selector:
     ai.service: aimodelserver
   ports:
-    - protocol: TCP
+    - name: portone
+      protocol: TCP
       port: 8500
       targetPort: 8500
-    - protocol: TCP
+    - name: porttwo
+      protocol: TCP
       port: 8501
       targetPort: 8501
