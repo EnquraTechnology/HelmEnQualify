@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ai_model_server
+  name: aimodelserver
   namespace: {{ .Values.namespace }}
   labels:
-    ai.service: ai_model_server
+    ai.service: aimodelserver
 spec:
   replicas: 1
   selector:
     matchLabels:
-      ai.service: ai_model_server
+      ai.service: aimodelserver
   template:
     metadata:
       labels:
-        ai.service: ai_model_server
+        ai.service: aimodelserver
     spec:
       containers:
         - name: ai_model_server
