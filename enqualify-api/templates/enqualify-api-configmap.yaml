@@ -8,8 +8,7 @@ data:
     {
       "Application": {
         "Settings": {
-          "Development": true,
-          "Production": false,
+          "Production": true,
           "CorsOrigins": [],
           "CustomerAppServiceBase": "{{ .Values.application.settings.customerAppServiceBase }}",
           "NotifyCustomerApp": false,
@@ -40,8 +39,8 @@ data:
           }
         },
         "Features": {
-          "Test": true,
-          "OpenAPI": true
+          "Test": false,
+          "OpenAPI": false
         },
         "Tokens": {
           "Auth": {

@@ -8,8 +8,7 @@ data:
     {
       "Application": {
         "Settings": {
-          "Development": true,
-          "Production": false,
+          "Production": true,
           "CorsOrigins": [],
         },
         "Database": {
@@ -25,8 +24,8 @@ data:
           "IntegrationApiAudience":  "{{ .Values.application.database.integration.integrationapiaudience }}"
         },
         "Features": {
-          "Test": true,
-          "OpenAPI": true
+          "Test": false,
+          "OpenAPI": false
         },
         "Tokens": {
           "Auth": {
