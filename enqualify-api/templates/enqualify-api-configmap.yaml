@@ -20,7 +20,7 @@ data:
           "VideoOriginalFolder": "Original",
           "VideoResizedFolder": "Resized",
           "FFmpegResourceUsage": {{ .Values.application.settings.ffmpegResourceUsage }},
-	  "TimeZoneOffset": 180
+          "TimeZoneOffset": 180
         },
         "Database": {
           "Type_": "PostgreSql",
