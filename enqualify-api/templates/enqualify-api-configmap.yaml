@@ -19,7 +19,8 @@ data:
           "VideoFolder": "Video",
           "VideoOriginalFolder": "Original",
           "VideoResizedFolder": "Resized",
-          "FFmpegResourceUsage": {{ .Values.application.settings.ffmpegResourceUsage }}
+          "FFmpegResourceUsage": {{ .Values.application.settings.ffmpegResourceUsage }},
+	  "TimeZoneOffset": 180
         },
         "Database": {
           "Type_": "PostgreSql",
@@ -98,7 +99,7 @@ data:
       },
       "Logging": {
         "LogLevel": {
-          "Default": "Warning",
+          "Default": "Information",
           "System": "Warning",
           "Microsoft": "Warning",
           "Microsoft.AspNetCore": "Warning",

@@ -59,11 +59,11 @@ data:
         "ScheduledTasks": {
           "SMSSender": false,
           "MailSender": false,
-          "AssignAgent": true,
+          "AssignAgent": false,
           "ResizeVideo": false,
           "ArchiveVideo": false,
           "DownloadVideo": false,
-          "ReportData": true,
+          "ReportData": false,
           "SignCalls": false
         },
         "Services": {
