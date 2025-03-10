@@ -43,9 +43,7 @@ volumes:
       claimName: enqualify-mapi-claim
 
 pvc:
-  storageClassName: nfs-sc
-  #volumeName: enqualify-pv
-  volumeMode: Filesystem
+  volumeName: enqualify-pv
   resources:
     requests:
       storage: 100Gi

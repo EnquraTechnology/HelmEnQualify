@@ -34,18 +34,17 @@ containerPorts:
   http: 8080
 
 pvc:
-  storageClassName: nfs-sc
-  #volumeName: enqualify-pv
-  volumeMode: Filesystem
+  volumeName: enqualify-pv
   resources:
     requests:
       storage: 100Gi
-#pv:
-  #name: enqualify-pv
-  #capacity: 100Gi
-  #nfs:
-   # server: " "
-   # path: "/"
+pv:
+  name: enqualify-pv
+  capacity: 
+     storage: 200Gi
+  nfs:
+    server: ""
+    path: "/"
 
 # Volume
 volumes:
