@@ -19,8 +19,7 @@ volumes:
     persistentVolumeClaim:
       claimName: enqualifyapp-ai-log-pvc
 pvc:
-  storageClassName: nfs-sc
-  volumeMode: Filesystem
+  volumeName: enqualify-pv
   resources:
     requests:
       storage: 100Gi

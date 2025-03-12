@@ -9,5 +9,5 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    server: {{ .Values.pv.nfs.path }}
-    path: {{ .Values.pv.nfs.server }}
+    server: {{ .Values.pv.nfs.server }}
+    path: {{ .Values.pv.nfs.path }}

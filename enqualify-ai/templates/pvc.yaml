@@ -4,9 +4,8 @@ metadata:
    name: enqualifyapp-ai-log-pvc
    namespaces: {{ .Values.namespace }}
 spec:
-  storageClassName: {{ .Values.pvc.storageClassName }}
-  #volumeName: {{ .Values.pvc.volumeName }}
-  volumeMode: {{ .Values.pvc.volumeMode }}
+  storageClassName: ""
+  volumeName: {{ .Values.pvc.volumeName }}
   accessModes:
   - ReadWriteMany
   resources:
