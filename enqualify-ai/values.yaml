@@ -18,8 +18,15 @@ smartid:
 volumes:
     persistentVolumeClaim:
       claimName: enqualifyapp-ai-log-pvc
+pv:
+  name: enqualify-ai-pv
+  capacity: 
+     storage: 200Gi
+  nfs:
+    server: ""
+    path: "/"
 pvc:
-  volumeName: enqualify-pv
+  volumeName: enqualify-ai-pv
   resources:
     requests:
       storage: 100Gi

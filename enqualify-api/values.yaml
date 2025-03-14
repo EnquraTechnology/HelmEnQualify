@@ -34,7 +34,7 @@ containerPorts:
   http: 8080
 
 pvc:
-  volumeName: enqualify-mapi-pv
+  volumeName: enqualify-pv
   resources:
     requests:
       storage: 100Gi
