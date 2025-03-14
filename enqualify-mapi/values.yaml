@@ -41,9 +41,16 @@ volumes:
   videopvc:
     persistentVolumeClaim:
       claimName: enqualify-mapi-claim
+pv:
+  name: enqualify-mapi-pv
+  capacity: 
+     storage: 200Gi
+  nfs:
+    server: ""
+    path: "/"
 
 pvc:
-  volumeName: enqualify-pv
+  volumeName: enqualify-mapi-pv
   resources:
     requests:
       storage: 100Gi
