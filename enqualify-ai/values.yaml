@@ -16,6 +16,7 @@ smartid:
     tag: ""
     pullPolicy: IfNotPresent
 volumes:
+  logfolder:
     persistentVolumeClaim:
       claimName: enqualifyapp-ai-log-pvc
 pv:

@@ -23,7 +23,7 @@ spec:
             - name: smartid
               containerPort: 7444
           volumeMounts:
-            - name: log-folder
+            - name: logfolder
               mountPath: /home/smartuser/smartid/log
           env:
             - name: HASH_CHECK
@@ -37,6 +37,6 @@ spec:
             - name: MODEL_SERVER_ADDR
               value: '{{ .Values.smartid.environment.MODEL_SERVER_ADDR }}'
       volumes:
-        - name: log-folder
+        - name: logfolder
           persistentVolumeClaim:
-            claimName: {{ .Values.volumes.persistentVolumeClaim.claimName }}
+            claimName: {{ .Values.volumes.logfolder.persistentVolumeClaim.claimName }}
